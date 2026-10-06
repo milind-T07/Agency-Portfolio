@@ -1,102 +1,71 @@
-# OJT Capstone Project — Dev Agency
+# 🚀 Dev Agency — Engineering Trainee Portfolio & Capstone Showcase
 
-A complete suite of six web applications built with pure HTML5, CSS3, and Vanilla JavaScript (ES6+). No frameworks, no libraries — just fundamentals.
+[![Vanilla JS](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Modern_Grid_%26_Flex-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🚀 Projects
+A premier agency portfolio showcasing five full-stack web applications engineered with **100% pure HTML5, CSS3, and ES6+ Vanilla JavaScript** — zero framework dependencies.
 
-| # | Project | Focus Area | Key Concepts |
-|---|---------|-----------|--------------|
-| 1 | **Agency Portfolio** | DOM & Layout | Hero section, contact form validation, theme toggle |
-| 2 | **Quiz App** | State & Logic | State object, dynamic rendering, score calculation |
-| 3 | **Expense Tracker** | CRUD & localStorage | filter(), reduce(), CRUD operations, persistence |
-| 4 | **News Feed** | Async API | fetch(), async/await, error handling, search/filter |
-| 5 | **GitHub Explorer** | Multi-Endpoint API | Multiple API calls, data transformation, sorting |
-| 6 | **Kanban Board** | Drag & Drop | HTML5 DnD API, complex state, modal, persistence |
+---
 
-## 📁 Folder Structure
+## 🌟 Live Applications Showcase
+
+| # | Project Name | Focus Area | Technology Highlights | Live Demo |
+|---|--------------|------------|-----------------------|-----------|
+| 1 | **Interactive Quiz App** | State & Logic | Dynamic Question Engine, Timer & Score Calculation | [Live Demo ↗](https://iamshkzahid.github.io/interactive-quiz-app/) |
+| 2 | **Expense Tracker** | CRUD & Storage | localStorage Persistence, Array Reducers, Income/Expense Stats | [Live Demo ↗](https://iamshkzahid.github.io/expense-tracker/) |
+| 3 | **Live News Feed** | Async REST API | Fetch API, Async/Await, NewsAPI Integration, Category Filters | [Live Demo ↗](https://iamshkzahid.github.io/live-news-feed/) |
+| 4 | **GitHub Developer Explorer** | Multi-Endpoint API | GitHub REST API v3, User Profile Stats & Repo Sorting | [Live Demo ↗](https://zenthar-dev.github.io/github-developer-explorer/) |
+| 5 | **Kanban Task Board** | Drag & Drop | Native HTML5 DnD, Column State Persistence, Dynamic CRUD | [Live Demo ↗](https://iamshkzahid.github.io/kanban-task-board/) |
+
+---
+
+## 👥 Engineering Team
+
+- **Zahid Shaikh** — Frontend Trainee Lead ([GitHub](https://github.com/iamshkzahid) • [LinkedIn](https://www.linkedin.com/in/zahid-shaikh-b33119349/))
+- **Milind Thakare** — Frontend Engineer & Repository Maintainer ([GitHub](https://github.com/milind-T07) • [LinkedIn](https://www.linkedin.com/in/milind-thakare-24638b36a/))
+- **Sauryaman Bisen** — Frontend Engineer Trainee ([GitHub](https://github.com/sauryamanbisen-art) • [LinkedIn](https://www.linkedin.com/in/sauryamanbisen/))
+- **Sankalp Tiwari** — Frontend Engineer Trainee ([GitHub](https://github.com/zenthar-dev) • [LinkedIn](https://www.linkedin.com/in/sankalp-tiwari-b69153386/))
+
+---
+
+## 📁 Repository Structure
 
 ```
-ojt-capstone-project/
-├── index.html                  ← Main landing page (Agency Portfolio)
+team-agency-portfolio/
+├── index.html                  ← Agency Landing Page & Showcase
 ├── css/
-│   ├── global.css              ← Shared styles, theme variables, reset
-│   └── portfolio.css           ← Portfolio page styles
+│   ├── global.css              ← Design Tokens, Glassmorphism, Responsive Grid
+│   └── portfolio.css           ← Hero styling, cards, modal, dark theme
 ├── js/
-│   ├── theme.js                ← Dark/light mode toggle
-│   └── portfolio.js            ← Contact form, mobile menu
-│
-├── quiz-app/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── state.js            ← Questions data, score tracking
-│       ├── ui.js               ← DOM rendering
-│       └── main.js             ← App initialization
-│
-├── expense-tracker/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── storage.js          ← localStorage read/write
-│       ├── state.js            ← Transactions array, CRUD, calculations
-│       ├── ui.js               ← DOM rendering, form validation
-│       └── main.js             ← App initialization
-│
-├── news-feed/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── config.js           ← API key configuration
-│       ├── api.js              ← fetch() calls to NewsAPI
-│       ├── ui.js               ← DOM rendering
-│       └── main.js             ← App initialization
-│
-├── github-explorer/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── config.js           ← API configuration
-│       ├── api.js              ← GitHub API calls
-│       ├── ui.js               ← DOM rendering
-│       └── main.js             ← App initialization
-│
-├── kanban-board/
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── storage.js          ← localStorage read/write
-│       ├── state.js            ← Board state, task CRUD
-│       ├── ui.js               ← DOM rendering, modal
-│       ├── dragdrop.js         ← HTML5 Drag and Drop handlers
-│       └── main.js             ← App initialization
-│
+│   ├── theme.js                ← Shared Theme Toggle (Dark/Light)
+│   └── portfolio.js            ← Category Filter, Quick View Modal, Scroll Spy
+├── assets/
+│   └── images/                 ← High-Resolution Web App Previews
 ├── documentation/
-│   └── viva-guide.md           ← Viva preparation guide
-│
-└── README.md                   ← This file
+│   └── viva-guide.md           ← Capstone Viva Preparation Guide
+└── README.md                   ← Project Documentation
 ```
 
-## 🛠️ Technologies Used
+## 🛠️ Architecture & Technical Highlights
 
-- **HTML5** — Semantic markup, forms, accessibility attributes
-- **CSS3** — Custom properties, Flexbox, CSS Grid, media queries
-- **JavaScript (ES6+)** — DOM manipulation, fetch API, async/await, localStorage
-- **APIs** — NewsAPI (news-feed), GitHub REST API (github-explorer)
+- **Zero-Framework Overhead**: Clean DOM manipulation and state isolation without React, Vue, or Angular.
+- **Glassmorphic Design System**: Modern dark & light mode UI with CSS Custom Properties and HSL palette.
+- **Interactive Quick View Modal**: Modal dialogs displaying project architecture and lead developer credits.
+- **Responsive Category Filtering**: Instant client-side filtering by project complexity and technical focus.
+- **Form Validation & UX**: Real-time email and input validation with custom feedback alerts.
 
-## 📦 Installation & Setup
+## 📦 Local Setup
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Edge, Safari)
-- A code editor (VS Code recommended)
-- A local development server (for the News Feed project)
-
-### Steps
-
-1. **Clone or download** the project:
+1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd ojt-capstone-project
+   git clone https://github.com/milind-T07/Agency-Portfolio.git
+   cd Agency-Portfolio
    ```
+
+2. **Run locally**:
+   Open `index.html` in your browser or run a simple local web server (e.g., VS Code Live Server or `python3 -m http.server`).
 
 2. **Open the project** in your code editor.
 
@@ -192,13 +161,6 @@ No configuration needed! The GitHub REST API works without authentication. Howev
 - Add a timer/countdown mode to the Quiz App
 - Deploy the portfolio using GitHub Pages or Netlify
 - Add unit tests for state management functions
-
-## 👥 Team Members Project 
-
-- **Zahid Shaikh** — Team-Agency-Portfolio & Quize App 
-- Sauryaman Bisen — Live-News-Feed & Kanban Board
-- Milind Thakare — Expence-Tracker
-- Sankalp Tiwari — Github-Explorer
 
 ## 📄 License
 

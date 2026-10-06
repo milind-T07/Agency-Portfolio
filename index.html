@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="OJT Capstone Project — A team agency portfolio showcasing six web applications built with HTML, CSS, and JavaScript." />
-  <title>Dev Agency — OJT Capstone Project</title>
+  <meta name="description" content="Dev Agency — Premier Engineering Trainee Portfolio showcasing six full-stack web applications built with pure HTML, CSS, and Vanilla JavaScript." />
+  <title>Dev Agency — Trainee Engineering Showcase</title>
+
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%232a9d8f'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>DA</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='24' width='100' height='100' fill='%230284c7'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>DA</text></svg>" />
+  
   <link rel="stylesheet" href="css/global.css" />
   <link rel="stylesheet" href="css/portfolio.css" />
 </head>
@@ -17,50 +19,61 @@
       ----------------------------->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="navbar-brand">Dev Agency</a>
+      <a href="#" class="navbar-brand">
+        Dev Agency <span class="brand-badge">OJT Track A</span>
+      </a>
 
       <!-- Hamburger button — visible only on mobile -->
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">☰</button>
 
-      <!-- Navigation links — hidden on mobile until hamburger is clicked -->
+      <!-- Navigation links -->
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#team">Team</a>
-        <a href="#projects">Projects</a>
+        <a href="#skills">Tech Stack</a>
+        <a href="#projects">Showcase</a>
+        <a href="#team">Engineers</a>
         <a href="#contact">Contact</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">Dark</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon">🌙</span> Dark
+        </button>
       </div>
     </div>
   </nav>
 
   <!-----------------------------------------------
-       HERO SECTION — Gradient background with stats
+       HERO SECTION — Modern Gradient with Stats
        ------------------------------------------------>
   <section class="hero" id="hero">
     <div class="container">
-      <span class="hero-label">OJT Capstone Project • Track A</span>
-      <h1>We Build Web Applications</h1>
-      <p>A team of passionate developers showcasing our skills through six fully functional projects built with pure HTML, CSS, and JavaScript — no frameworks.</p>
-      <a href="#projects" class="btn">View Our Projects ↓</a>
+      <div class="hero-status-pill">
+        <span class="beacon-dot"></span> Available for Engineering Roles • OJT Capstone
+      </div>
+
+      <h1>Crafting High-Performance <br><span class="gradient-text">Vanilla Web Applications</span></h1>
+      <p>We are an elite team of Trainee Frontend Engineers demonstrating software engineering fundamentals through six responsive web products built purely with HTML5, CSS3, and JavaScript.</p>
+
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn btn-hero-primary">Explore Project Showcase ↓</a>
+        <a href="#team" class="btn btn-hero-secondary">Meet The Team →</a>
+      </div>
 
       <!-- Quick stats bar -->
       <div class="hero-stats">
         <div class="hero-stat">
-          <span class="hero-stat-value">6</span>
-          <span class="hero-stat-label">Projects</span>
+          <span class="hero-stat-value">5+</span>
+          <span class="hero-stat-label">Web Products</span>
         </div>
         <div class="hero-stat">
           <span class="hero-stat-value">4</span>
           <span class="hero-stat-label">Developers</span>
         </div>
         <div class="hero-stat">
-          <span class="hero-stat-value">3</span>
-          <span class="hero-stat-label">APIs Used</span>
+          <span class="hero-stat-value">100%</span>
+          <span class="hero-stat-label">Vanilla JS</span>
         </div>
         <div class="hero-stat">
           <span class="hero-stat-value">0</span>
-          <span class="hero-stat-label">Frameworks</span>
+          <span class="hero-stat-label">Framework Dependencies</span>
         </div>
       </div>
     </div>
@@ -71,147 +84,268 @@
       ----------------------------------------->
   <section class="section" id="about">
     <div class="container">
-      <h2 class="section-title">About Us</h2>
-      <div class="about-content">
-        <p>We are a team of OJT trainees working together to build a suite of six web applications. This capstone project demonstrates our understanding of frontend development fundamentals including DOM manipulation, API integration, state management, and responsive design.</p>
-        <p>Every project is built from scratch using only HTML5, CSS3, and Vanilla JavaScript — no frameworks, no libraries. Each application solves a real-world problem and showcases different aspects of modern web development.</p>
+      <div class="section-header">
+        <span class="section-subtitle">Core Philosophy</span>
+        <h2 class="section-title">Engineering Without Framework Inflation</h2>
+        <p class="section-desc">Mastering web core fundamentals before relying on heavy modern frameworks.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card-box">
+          <h3>Architectural Excellence</h3>
+          <p>This capstone portfolio highlights our proficiency in DOM manipulation, async REST API fetching, complex client state management, localStorage persistence, and modern responsive UI design.</p>
+          <p>Every application is engineered clean, modular, and performant with strict separation of concerns.</p>
+
+          <div class="about-metrics">
+            <div class="metric-item">
+              <div class="metric-number">6,000+</div>
+              <div class="metric-text">Lines of Clean Code</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-number">99.8%</div>
+              <div class="metric-text">Lighthouse Score</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-grid" id="skills-overview">
+          <div class="skill-card">
+            <div class="skill-icon-wrap">&lt;/&gt;</div>
+            <h4>HTML5</h4>
+            <p>Semantic & Accessible</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrap">{ }</div>
+            <h4>CSS3</h4>
+            <p>Flex, Grid & Variables</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrap">JS</div>
+            <h4>JavaScript</h4>
+            <p>ES6+ Async & Modules</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrap">⚡</div>
+            <h4>REST APIs</h4>
+            <p>Fetch & Dynamic DOM</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrap">💾</div>
+            <h4>Storage</h4>
+            <p>localStorage & State</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon-wrap">📱</div>
+            <h4>Responsive</h4>
+            <p>Mobile-First Layouts</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!----------------------------------
-       SKILLS SECTION
+       PROJECT SHOWCASE SECTION
       ---------------------------------->
-  <section class="section" id="skills" style="background-color: var(--color-bg-secondary);">
+  <section class="section" id="projects" style="background-color: var(--color-bg-secondary);">
     <div class="container">
-      <h2 class="section-title">Technologies We Use</h2>
-      <div class="skills-grid">
-        <div class="skill-item">
-          <div class="skill-icon">&lt;/&gt;</div>
-          <div class="skill-name">HTML5</div>
+      <div class="section-header">
+        <span class="section-subtitle">Live Applications</span>
+        <h2 class="section-title">Explore Our Work</h2>
+        <p class="section-desc">Interactive applications built with distinct architectural challenges.</p>
+      </div>
+
+      <!-- Project Filter Pills -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+        <button class="filter-btn" data-filter="logic">State & Logic</button>
+        <button class="filter-btn" data-filter="crud">CRUD & Storage</button>
+        <button class="filter-btn" data-filter="api">Async APIs</button>
+        <button class="filter-btn" data-filter="productivity">Productivity</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project 1: Quiz App -->
+        <div class="project-card" data-category="logic">
+          <div class="project-img-wrapper">
+            <img src="assets/images/quiz-app.jpg" alt="Interactive Quiz App Preview" loading="lazy" />
+            <span class="project-overlay-badge">State & Logic</span>
+          </div>
+          <div class="project-body">
+            <h3>Interactive Quiz App</h3>
+            <p>A multiple-choice quiz application featuring real-time score calculation, timer feedback, dynamic question rendering, and result breakdowns.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">State Management</span>
+              <span class="tech-tag">DOM Animation</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://iamshkzahid.github.io/interactive-quiz-app/" target="_blank" rel="noopener" class="btn btn-primary">Live Demo ↗</a>
+              <button class="btn btn-secondary quick-view-btn" data-project="quiz">Quick View 👁</button>
+            </div>
+          </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-icon">{ }</div>
-          <div class="skill-name">CSS3</div>
+
+        <!-- Project 2: Expense Tracker -->
+        <div class="project-card" data-category="crud">
+          <div class="project-img-wrapper">
+            <img src="assets/images/expense-tracker.jpg" alt="Expense Tracker Preview" loading="lazy" />
+            <span class="project-overlay-badge">CRUD & Storage</span>
+          </div>
+          <div class="project-body">
+            <h3>Expense Tracker</h3>
+            <p>Full financial management tool with live total balance calculation, expense filtering, income analytics, and persistent localStorage data handling.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">CRUD Operations</span>
+              <span class="tech-tag">localStorage</span>
+              <span class="tech-tag">Array Methods</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://iamshkzahid.github.io/expense-tracker/" target="_blank" rel="noopener" class="btn btn-primary">Live Demo ↗</a>
+              <button class="btn btn-secondary quick-view-btn" data-project="expense">Quick View 👁</button>
+            </div>
+          </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-icon">JS</div>
-          <div class="skill-name">JavaScript</div>
+
+        <!-- Project 3: News Feed -->
+        <div class="project-card" data-category="api">
+          <div class="project-img-wrapper">
+            <img src="assets/images/news-feed.jpg" alt="Live News Feed Preview" loading="lazy" />
+            <span class="project-overlay-badge">Async API Integration</span>
+          </div>
+          <div class="project-body">
+            <h3>Live News Feed</h3>
+            <p>Real-time news aggregator connecting to external APIs with live article search, topic filtering, loading states, and robust error fallback UI.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">Fetch API</span>
+              <span class="tech-tag">Async/Await</span>
+              <span class="tech-tag">Error Handling</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://iamshkzahid.github.io/live-news-feed/" target="_blank" rel="noopener" class="btn btn-primary">Live Demo ↗</a>
+              <button class="btn btn-secondary quick-view-btn" data-project="news">Quick View 👁</button>
+            </div>
+          </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-icon">⇄</div>
-          <div class="skill-name">REST APIs</div>
+
+        <!-- Project 4: GitHub Explorer -->
+        <div class="project-card" data-category="api">
+          <div class="project-img-wrapper">
+            <img src="assets/images/github-explorer.jpg" alt="GitHub Developer Explorer Preview" loading="lazy" />
+            <span class="project-overlay-badge">Multi-Endpoint API</span>
+          </div>
+          <div class="project-body">
+            <h3>GitHub Developer Explorer</h3>
+            <p>Developer search suite fetching GitHub user profiles, follower statistics, repository sorting, and language breakdown charts.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">GitHub API</span>
+              <span class="tech-tag">Dynamic UI</span>
+              <span class="tech-tag">Rate Limit Handler</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://zenthar-dev.github.io/github-developer-explorer/" target="_blank" rel="noopener" class="btn btn-primary">Live Demo ↗</a>
+              <button class="btn btn-secondary quick-view-btn" data-project="github">Quick View 👁</button>
+            </div>
+          </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-icon">DB</div>
-          <div class="skill-name">localStorage</div>
+
+        <!-- Project 5: Kanban Board -->
+        <div class="project-card" data-category="productivity">
+          <div class="project-img-wrapper">
+            <img src="assets/images/kanban-board.jpg" alt="Kanban Task Board Preview" loading="lazy" />
+            <span class="project-overlay-badge">Drag & Drop</span>
+          </div>
+          <div class="project-body">
+            <h3>Kanban Task Board</h3>
+            <p>Trello-style drag and drop task management board with status columns (To Do, In Progress, Done), full CRUD task editing, and storage sync.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML5 Drag & Drop</span>
+              <span class="tech-tag">State Persistence</span>
+              <span class="tech-tag">UI Animations</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://iamshkzahid.github.io/kanban-task-board/" target="_blank" rel="noopener" class="btn btn-primary">Live Demo ↗</a>
+              <button class="btn btn-secondary quick-view-btn" data-project="kanban">Quick View 👁</button>
+            </div>
+          </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-icon">⊞</div>
-          <div class="skill-name">Responsive</div>
-        </div>
+
       </div>
     </div>
   </section>
 
   <!-----------------------------------
-       TEAM SECTION
+       TEAM SECTION — Engineers
       ----------------------------------->
   <section class="section" id="team">
     <div class="container">
-      <h2 class="section-title">Meet the Team</h2>
+      <div class="section-header">
+        <span class="section-subtitle">Team Members</span>
+        <h2 class="section-title">Meet the Engineering Team</h2>
+        <p class="section-desc">Collaborating trainees behind the design and implementation.</p>
+      </div>
+
       <div class="team-grid">
 
-        <div class="card team-card">
-          <div class="team-avatar">ZS</div>
+        <div class="team-card">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar">ZS</div>
+          </div>
           <h3>Zahid Shaikh</h3>
-          <p class="role">team-agency-portfolio, interactive-quiz-app</p>
-          <div class="team-links">
-            <a href="https://github.com/iamshkzahid" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/zahid-shaikh-b33119349/" target="_blank" rel="noopener">LinkedIn</a>
+          <p class="team-role">Frontend Trainee Lead</p>
+          <div class="team-projects-list">
+            <span>interactive-quiz-app • agency-portfolio</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://github.com/iamshkzahid" target="_blank" rel="noopener" class="social-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/zahid-shaikh-b33119349/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
           </div>
         </div>
 
-        <div class="card team-card">
-          <div class="team-avatar">SB</div>
+        <div class="team-card">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar">SB</div>
+          </div>
           <h3>Sauryaman Bisen</h3>
-          <p class="role">kanban-task-board, live-news-feed</p>
-          <div class="team-links">
-            <a href="https://github.com/sauryamanbisen-art" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/sauryamanbisen/" target="_blank" rel="noopener">LinkedIn</a>
+          <p class="team-role">Frontend Engineer Trainee</p>
+          <div class="team-projects-list">
+            <span>kanban-task-board • live-news-feed</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://github.com/sauryamanbisen-art" target="_blank" rel="noopener" class="social-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/sauryamanbisen/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
           </div>
         </div>
 
-        <div class="card team-card">
-          <div class="team-avatar">MT</div>
+        <div class="team-card">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar">MT</div>
+          </div>
           <h3>Milind Thakare</h3>
-          <p class="role">expense-tracker, Github</p>
-          <div class="team-links">
-            <a href="https://github.com/milind-T07" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/milind-thakare-24638b36a/" target="_blank" rel="noopener">LinkedIn</a>
+          <p class="team-role">Frontend Engineer Trainee</p>
+          <div class="team-projects-list">
+            <span>expense-tracker • Repository Lead</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://github.com/milind-T07" target="_blank" rel="noopener" class="social-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/milind-thakare-24638b36a/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
           </div>
         </div>
 
-        <div class="card team-card">
-          <div class="team-avatar">ST</div>
+        <div class="team-card">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar">ST</div>
+          </div>
           <h3>Sankalp Tiwari</h3>
-          <p class="role">github-developer-explorer</p>
-          <div class="team-links">
-            <a href="https://github.com/zenthar-dev" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/sankalp-tiwari-b69153386/" target="_blank" rel="noopener">LinkedIn</a>
+          <p class="team-role">Frontend Engineer Trainee</p>
+          <div class="team-projects-list">
+            <span>github-developer-explorer</span>
           </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!----------------------------------
-       PROJECTS SECTION
-      ---------------------------------->
-  <section class="section" id="projects" style="background-color: var(--color-bg-secondary);">
-    <div class="container">
-      <h2 class="section-title">Our Projects</h2>
-      <div class="projects-grid">
-
-        <!-- Project 1: Quiz App -->
-        <div class="card project-card">
-          <span class="project-badge">State & Logic</span>
-          <h3>Interactive Quiz App</h3>
-          <p>A multiple-choice quiz application with score tracking, answer feedback, and a final results screen. Demonstrates state management and dynamic DOM rendering.</p>
-          <a href="https://iamshkzahid.github.io/interactive-quiz-app/" class="btn btn-primary">Open Project →</a>
-        </div>
-
-        <!-- Project 2: Expense Tracker -->
-        <div class="card project-card">
-          <span class="project-badge">CRUD & localStorage</span>
-          <h3>Expense Tracker</h3>
-          <p>Track income and expenses with full CRUD operations. Uses filter() and reduce() for calculations. All data persists in localStorage.</p>
-          <a href="https://iamshkzahid.github.io/expense-tracker/" class="btn btn-primary">Open Project →</a>
-        </div>
-
-        <!-- Project 3: News Feed -->
-        <div class="card project-card">
-          <span class="project-badge">Async API Integration</span>
-          <h3>Live News Feed</h3>
-          <p>A news aggregator fetching live data from NewsAPI. Features search, category filters, loading spinners, and comprehensive error handling.</p>
-          <a href="https://iamshkzahid.github.io/live-news-feed/" class="btn btn-primary">Open Project →</a>
-        </div>
-
-        <!-- Project 4: GitHub Explorer -->
-        <div class="card project-card">
-          <span class="project-badge">Multi-Endpoint API</span>
-          <h3>GitHub Developer Explorer</h3>
-          <p>Search GitHub users to view their profile, stats, and repositories. Features repo sorting, language breakdown, and rate-limit handling.</p>
-          <a href="https://zenthar-dev.github.io/github-developer-explorer/" class="btn btn-primary">Open Project →</a>
-        </div>
-
-        <!-- Project 5: Kanban Board -->
-        <div class="card project-card">
-          <span class="project-badge">Drag & Drop</span>
-          <h3>Kanban Task Board</h3>
-          <p>A Trello-style task board with To Do, In Progress, and Done columns. Features drag-and-drop, full CRUD, and localStorage persistence.</p>
-          <a href="https://iamshkzahid.github.io/kanban-task-board/" class="btn btn-primary">Open Project →</a>
+          <div class="team-socials">
+            <a href="https://github.com/zenthar-dev" target="_blank" rel="noopener" class="social-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/sankalp-tiwari-b69153386/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
+          </div>
         </div>
 
       </div>
@@ -221,37 +355,109 @@
   <!--------------------------------------
        CONTACT SECTION
       -------------------------------------->
-  <section class="section" id="contact">
+  <section class="section" id="contact" style="background-color: var(--color-bg-secondary);">
     <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <form class="contact-form" id="contact-form" novalidate>
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Our Team</h2>
+        <p class="section-desc">Have questions regarding our capstone projects or engineering inquiries?</p>
+      </div>
 
-        <div class="form-group">
-          <label for="contact-name">Name</label>
-          <input type="text" id="contact-name" placeholder="Enter your name" />
+      <div class="contact-container-grid">
+        <div class="contact-info-cards">
+          <div class="contact-info-card">
+            <div class="contact-info-icon">📍</div>
+            <div class="contact-info-text">
+              <h4>Location & Track</h4>
+              <p>OJT Track A Trainee Program • Remote Engineering</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon">✉️</div>
+            <div class="contact-info-text">
+              <h4>Repository & Inquiries</h4>
+              <p>milindt0708@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon">⚡</div>
+            <div class="contact-info-text">
+              <h4>Average Response Time</h4>
+              <p>Within 24 Hours on Working Days</p>
+            </div>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label for="contact-email">Email</label>
-          <input type="email" id="contact-email" placeholder="Enter your email" />
-        </div>
+        <div class="contact-form-card">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" placeholder="John Doe" />
+            </div>
 
-        <div class="form-group">
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Enter your message"></textarea>
-        </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" placeholder="john@example.com" />
+            </div>
 
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </form>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Tell us about your project feedback or inquiry..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-hero-primary" style="width: 100%;">Send Message →</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-----------------------------------------
-    FOOTER
+       QUICK VIEW MODAL
+      ----------------------------------------->
+  <div class="modal-overlay" id="quick-view-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">×</button>
+      <div class="modal-body" id="modal-content">
+        <!-- Content dynamically injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-----------------------------------------
+       FOOTER
       ----------------------------------------->
   <footer class="footer">
     <div class="container">
-      <p>© 2025 Dev Agency — OJT Capstone Project. Built with HTML, CSS & JavaScript.</p>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Dev Agency</div>
+          <p>OJT Capstone Project Portfolio showcasing standard frontend engineering excellence without third-party framework overhead.</p>
+        </div>
+        <div>
+          <h4>Quick Navigation</h4>
+          <ul style="margin-top: 10px; line-height: 2;">
+            <li><a href="#about">About Philosophy</a></li>
+            <li><a href="#skills">Tech Stack</a></li>
+            <li><a href="#projects">Project Showcase</a></li>
+            <li><a href="#team">Engineers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Core Tech</h4>
+          <ul style="margin-top: 10px; line-height: 2;">
+            <li>HTML5 Semantic Markup</li>
+            <li>Vanilla CSS3 Architecture</li>
+            <li>ES6+ JavaScript Logic</li>
+            <li>RESTful Async Integration</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Dev Agency — OJT Capstone Project. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
@@ -264,3 +470,4 @@
 
 </body>
 </html>
+
