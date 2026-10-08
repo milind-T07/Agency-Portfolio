@@ -25,13 +25,13 @@ function initTheme() {
   // Read the saved theme from localStorage (returns null if not set)
   const savedTheme = localStorage.getItem("theme");
 
-  // Apply saved theme (or default to light)
-  if (savedTheme === "dark") {
-    document.documentElement.setAttribute("data-theme", "dark");
-    themeToggleButton.textContent = "Light";
-  } else {
+  // Apply saved theme (default to dark)
+  if (savedTheme === "light") {
     document.documentElement.setAttribute("data-theme", "light");
-    themeToggleButton.textContent = "Dark";
+    themeToggleButton.innerHTML = '<span class="theme-icon">🌙</span> Dark';
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
+    themeToggleButton.innerHTML = '<span class="theme-icon">☀️</span> Light';
   }
 
   // Listen for clicks on the theme toggle button
@@ -46,11 +46,11 @@ function toggleTheme(themeToggleButton) {
 
   if (currentTheme === "dark") {
     document.documentElement.setAttribute("data-theme", "light");
-    themeToggleButton.textContent = "Dark";
+    themeToggleButton.innerHTML = '<span class="theme-icon">🌙</span> Dark';
     localStorage.setItem("theme", "light");
   } else {
     document.documentElement.setAttribute("data-theme", "dark");
-    themeToggleButton.textContent = "Light";
+    themeToggleButton.innerHTML = '<span class="theme-icon">☀️</span> Light';
     localStorage.setItem("theme", "dark");
   }
 }

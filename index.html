@@ -1,6 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
+  <script>
+    (function() {
+      const saved = localStorage.getItem("theme");
+      if (saved === "light") {
+        document.documentElement.setAttribute("data-theme", "light");
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Dev Agency — Premier Engineering Portfolio showcasing web applications built with pure HTML, CSS, and Vanilla JavaScript." />
