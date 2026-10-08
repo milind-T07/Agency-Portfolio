@@ -1,4 +1,4 @@
-# 🚀 Dev Agency — Engineering Trainee Portfolio & Capstone Showcase
+# 🚀 Dev Agency — Engineering Showcase
 
 [![Vanilla JS](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -23,10 +23,10 @@ A premier agency portfolio showcasing five full-stack web applications engineere
 
 ## 👥 Engineering Team
 
-- **Zahid Shaikh** — Frontend Trainee Lead ([GitHub](https://github.com/iamshkzahid) • [LinkedIn](https://www.linkedin.com/in/zahid-shaikh-b33119349/))
-- **Milind Thakare** — Frontend Engineer & Repository Maintainer ([GitHub](https://github.com/milind-T07) • [LinkedIn](https://www.linkedin.com/in/milind-thakare-24638b36a/))
-- **Sauryaman Bisen** — Frontend Engineer Trainee ([GitHub](https://github.com/sauryamanbisen-art) • [LinkedIn](https://www.linkedin.com/in/sauryamanbisen/))
-- **Sankalp Tiwari** — Frontend Engineer Trainee ([GitHub](https://github.com/zenthar-dev) • [LinkedIn](https://www.linkedin.com/in/sankalp-tiwari-b69153386/))
+- **Sophia Rodriguez** — Lead Frontend Architect
+- **Aarav Patel** — Senior Full Stack Developer
+- **Elena Rostova** — Lead UI/UX Designer
+- **Maya Lin** — Product & Performance Engineer
 
 ---
 
@@ -42,9 +42,7 @@ team-agency-portfolio/
 │   ├── theme.js                ← Shared Theme Toggle (Dark/Light)
 │   └── portfolio.js            ← Category Filter, Quick View Modal, Scroll Spy
 ├── assets/
-│   └── images/                 ← High-Resolution Web App Previews
-├── documentation/
-│   └── viva-guide.md           ← Capstone Viva Preparation Guide
+│   └── images/                 ← High-Resolution Web App & Team Previews
 └── README.md                   ← Project Documentation
 ```
 
@@ -67,13 +65,13 @@ team-agency-portfolio/
 2. **Run locally**:
    Open `index.html` in your browser or run a simple local web server (e.g., VS Code Live Server or `python3 -m http.server`).
 
-2. **Open the project** in your code editor.
+3. **Open the project** in your code editor.
 
-3. **For most projects**, simply open `index.html` in your browser:
+4. **For most projects**, simply open `index.html` in your browser:
    - Double-click `index.html`, or
    - Right-click → "Open with" → your browser
 
-4. **For the News Feed** (requires a server due to API calls):
+5. **For the News Feed** (requires a server due to API calls):
    ```bash
    # Install live-server globally (one-time setup)
    npm install -g live-server
@@ -82,24 +80,6 @@ team-agency-portfolio/
    live-server
    ```
    This opens the project at `http://127.0.0.1:8080`
-
-## 🔑 API Configuration
-
-### NewsAPI (News Feed)
-
-1. Go to [https://newsapi.org/](https://newsapi.org/) and create a free account.
-2. Copy your API key from the dashboard.
-3. Open `news-feed/js/config.js`.
-4. Replace `"YOUR_API_KEY_HERE"` with your actual API key:
-   ```javascript
-   apiKey: "your-actual-api-key-here"
-   ```
-
-> **Note:** The free tier of NewsAPI only works on `localhost`. It will not work on deployed sites.
-
-### GitHub API (GitHub Explorer)
-
-No configuration needed! The GitHub REST API works without authentication. However, unauthenticated requests are limited to **60 per hour**.
 
 ## 📖 Usage Guide
 
@@ -152,16 +132,6 @@ No configuration needed! The GitHub REST API works without authentication. Howev
 | Drag and drop not working on mobile | Use the "Move Left/Right" buttons instead |
 | Page styles look wrong | Make sure `css/global.css` is accessible from the sub-project path |
 
-## 🔮 Future Improvements
-
-- Add user authentication for the Expense Tracker
-- Implement pagination for the News Feed
-- Add GitHub OAuth for higher API rate limits
-- Add task priorities and due dates to the Kanban Board
-- Add a timer/countdown mode to the Quiz App
-- Deploy the portfolio using GitHub Pages or Netlify
-- Add unit tests for state management functions
-
 ## 📄 License
 
-This project was created as part of the OJT (On-the-Job Training) Capstone program. For educational purposes only.
+This project is licensed under the MIT License.

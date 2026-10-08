@@ -332,7 +332,7 @@
   color: var(--color-text-secondary);
 }
 
-/* ----- SKILLS / TECH STACK SECTION ----- */
+/* ----- SKILLS & ARCHITECTURE ----- */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -608,9 +608,24 @@
 
 .team-avatar-wrapper {
   position: relative;
-  width: 86px;
-  height: 86px;
+  width: 96px;
+  height: 96px;
   margin: 0 auto var(--space-md);
+}
+
+.team-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+  border: 3px solid var(--color-primary-light);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.team-card:hover .team-img {
+  transform: scale(1.06);
+  border-color: var(--color-primary);
 }
 
 .team-avatar {

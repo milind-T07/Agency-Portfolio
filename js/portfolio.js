@@ -46,7 +46,7 @@ const projectDetailsData = {
     title: "Interactive Quiz App",
     badge: "State & Logic",
     image: "assets/images/quiz-app.jpg",
-    author: "Zahid Shaikh",
+    author: "Sophia Rodriguez",
     description: "A dynamic quiz application designed to test subject knowledge with instant score calculations, countdown timer, question progression, and detailed score feedback.",
     features: [
       "Dynamic question loading and state management",
@@ -61,7 +61,7 @@ const projectDetailsData = {
     title: "Expense Tracker",
     badge: "CRUD & localStorage",
     image: "assets/images/expense-tracker.jpg",
-    author: "Milind Thakare",
+    author: "Aarav Patel",
     description: "Personal finance and budget manager enabling users to track income and expenditure items with full CRUD operations, category filters, and persistent local storage.",
     features: [
       "Add, edit, filter, and delete transaction items",
@@ -76,7 +76,7 @@ const projectDetailsData = {
     title: "Live News Feed",
     badge: "Async API Integration",
     image: "assets/images/news-feed.jpg",
-    author: "Sauryaman Bisen",
+    author: "Elena Rostova",
     description: "Real-time news feed aggregator pulling trending global news articles with search filters, article topic categories, responsive card grids, and error state handling.",
     features: [
       "Asynchronous REST API fetching using fetch() and async/await",
@@ -91,7 +91,7 @@ const projectDetailsData = {
     title: "GitHub Developer Explorer",
     badge: "Multi-Endpoint API",
     image: "assets/images/github-explorer.jpg",
-    author: "Sankalp Tiwari",
+    author: "Maya Lin",
     description: "Developer profile search engine connecting to GitHub REST API v3 to display profile details, follower counts, repository listings, star counts, and top languages.",
     features: [
       "Multi-endpoint data fetching (Users, Repos, Followers)",
@@ -106,7 +106,7 @@ const projectDetailsData = {
     title: "Kanban Task Board",
     badge: "Drag & Drop",
     image: "assets/images/kanban-board.jpg",
-    author: "Sauryaman Bisen",
+    author: "Elena Rostova",
     description: "Productivity board implementing HTML5 Drag and Drop API to move tasks across To Do, In Progress, and Done columns with full state persistence.",
     features: [
       "Native HTML5 Drag and Drop event listeners",

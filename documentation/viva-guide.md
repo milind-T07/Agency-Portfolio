@@ -1,4 +1,4 @@
-# Viva Preparation Guide — OJT Capstone Project
+# Technical & Architecture Guide — Dev Agency Showcase
 
 ## How to Use This Guide
 
