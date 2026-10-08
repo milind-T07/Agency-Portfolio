@@ -8,7 +8,71 @@ document.addEventListener("DOMContentLoaded", function () {
   initScrollToTop();
   initProjectFilters();
   initQuickViewModal();
+  initCounterAnimation();
 });
+
+/* ============================================
+   ANIMATED NUMBER COUNTERS
+   ============================================ */
+function initCounterAnimation() {
+  const counterElements = document.querySelectorAll("[data-target]");
+  if (!counterElements.length) return;
+
+  const observerOptions = {
+    threshold: 0.15
+  };
+
+  const observer = new IntersectionObserver(function (entries, observerInstance) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        animateSingleCounter(el);
+        observerInstance.unobserve(el);
+      }
+    });
+  }, observerOptions);
+
+  counterElements.forEach(function (el) {
+    observer.observe(el);
+  });
+}
+
+function animateSingleCounter(el) {
+  const target = parseFloat(el.getAttribute("data-target")) || 0;
+  const suffix = el.getAttribute("data-suffix") || "";
+  const prefix = el.getAttribute("data-prefix") || "";
+  const decimals = parseInt(el.getAttribute("data-decimals")) || 0;
+  const duration = 2000; // milliseconds
+  const startTime = performance.now();
+
+  function updateCount(currentTime) {
+    const elapsedTime = currentTime - startTime;
+    const progress = Math.min(elapsedTime / duration, 1);
+
+    // Smooth cubic ease-out curve
+    const easeOutProgress = 1 - Math.pow(1 - progress, 3);
+    const currentValue = easeOutProgress * target;
+
+    if (decimals > 0) {
+      el.textContent = prefix + currentValue.toFixed(decimals) + suffix;
+    } else {
+      el.textContent = prefix + Math.floor(currentValue) + suffix;
+    }
+
+    if (progress < 1) {
+      requestAnimationFrame(updateCount);
+    } else {
+      // Ensure exact final target value on completion
+      if (decimals > 0) {
+        el.textContent = prefix + target.toFixed(decimals) + suffix;
+      } else {
+        el.textContent = prefix + target + suffix;
+      }
+    }
+  }
+
+  requestAnimationFrame(updateCount);
+}
 
 /* ============================================
    PROJECT CATEGORY FILTERING
