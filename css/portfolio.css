@@ -332,53 +332,107 @@
   color: var(--color-text-secondary);
 }
 
-/* ----- SKILLS & ARCHITECTURE ----- */
-.skills-grid {
+/* ----- ABOUT HYPE & METRICS SECTION ----- */
+.hype-metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }
 
-.skill-card {
+.hype-metric-card {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-lg) var(--space-md);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
   text-align: center;
-  transition: var(--transition);
   box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.skill-card:hover {
+.hype-metric-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--color-primary-gradient);
+}
+
+.hype-metric-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+.hype-metric-number {
+  font-family: var(--font-family-heading);
+  font-size: 2.75rem;
+  font-weight: 900;
+  background: var(--color-primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: var(--space-xs);
+  line-height: 1.1;
+}
+
+.hype-metric-title {
+  font-family: var(--font-family-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.hype-metric-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.about-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+.about-feature-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.about-feature-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary);
-  box-shadow: var(--shadow-md);
 }
 
-.skill-icon-wrap {
-  width: 54px;
-  height: 54px;
-  border-radius: var(--radius-md);
-  background: var(--color-primary-light);
-  color: var(--color-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto var(--space-md);
-  font-size: 1.5rem;
+.about-feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: var(--space-md);
+  display: inline-block;
+}
+
+.about-feature-card h3 {
+  font-family: var(--font-family-heading);
+  font-size: 1.25rem;
   font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
 }
 
-.skill-card h4 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-
-.skill-card p {
-  font-size: 0.8rem;
-  color: var(--color-text-light);
-  margin: 0;
+.about-feature-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}  margin: 0;
 }
 
 /* ----- PROJECTS SECTION ----- */
@@ -608,19 +662,23 @@
 
 .team-avatar-wrapper {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 160px;
+  max-height: 160px;
   margin: 0 auto var(--space-md);
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 
 .team-img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: var(--radius-md);
   object-fit: cover;
   box-shadow: var(--shadow-md);
-  border: 3px solid var(--color-primary-light);
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  border: 2px solid var(--color-border);
+  transition: transform 0.4s ease, border-color 0.3s ease;
 }
 
 .team-card:hover .team-img {
@@ -628,19 +686,16 @@
   border-color: var(--color-primary);
 }
 
-.team-avatar {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: var(--color-primary-gradient);
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-family-heading);
-  font-size: 1.5rem;
-  font-weight: 800;
-  box-shadow: var(--shadow-md);
+.team-exp-badge {
+  display: inline-block;
+  background: var(--color-bg-secondary);
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-md);
 }
 
 .team-card h3 {
