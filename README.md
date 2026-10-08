@@ -1,14 +1,29 @@
-# ⚡ Dev Agency — Engineering Showcase
+# ⚡ Dev Agency Portfolio — Developed by Milind Thakare
 
 [![Vanilla JS](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-Semantic-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Glassmorphism-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub_Pages-green.svg)](https://milind-t07.github.io/Agency-Portfolio/)
+[![Maintainer](https://img.shields.io/badge/Developer-Milind_Thakare-blue.svg)](https://github.com/milind-T07)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
-A premier enterprise-grade digital agency showcase built with **100% pure HTML5, CSS3, and ES6+ Vanilla JavaScript** — zero third-party framework dependencies.
+Welcome to my **Dev Agency Portfolio** repository! I designed and engineered this modern, high-performance web agency application to showcase software engineering excellence, responsive UI design, interactive web products, and zero-framework performance.
 
 🌐 **Live Website**: [https://milind-t07.github.io/Agency-Portfolio/](https://milind-t07.github.io/Agency-Portfolio/)
+
+---
+
+## 📌 Project Overview
+
+This is my project showcasing **Dev Agency** — a high-impact web development studio. I built this application using **100% Pure HTML5, CSS3 (Glassmorphism & CSS Variables), and ES6+ Vanilla JavaScript**, eliminating third-party framework overhead while delivering a fast, responsive, and visually stunning web experience.
+
+### 🌟 Key Features I Engineered:
+- 🌙 **Automatic Default Dark Mode**: Instant theme engine that defaults to Dark Mode on page start with zero white flash.
+- 🔢 **Animated 60fps Number Counters**: Interactive count-up animation starting from `0` when scrolling into view.
+- 💊 **Floating Pill Navigation Bar**: Glassmorphic pill-shaped navigation links with smooth hover and active state gradients.
+- 🎯 **Centered 5th Project Layout**: Modern responsive CSS grid that centers the 5th project card (*Kanban Board*) on desktop screens.
+- 🖼️ **Square Team Cards**: Clean portrait card layout with experience badges and hover animations.
+- ⚡ **Zero-Framework Architecture**: Modular JavaScript code structure built purely with browser APIs.
 
 ---
 
@@ -16,27 +31,27 @@ A premier enterprise-grade digital agency showcase built with **100% pure HTML5,
 
 | Metric | Value | Highlights |
 |--------|-------|------------|
-| **Projects Delivered** | `100+` | Deployed across SaaS, fintech, e-commerce & real-time platforms globally |
+| **Projects Delivered** | `100+` | Deployed across SaaS, fintech, e-commerce & real-time platforms |
 | **Monthly API Calls** | `50M+` | Sub-50ms average latency with 99.99% system uptime |
 | **Lighthouse Score** | `99.9%` | Flawless performance, SEO dominance & accessibility rating |
-| **Engineering Experts** | `8 Members` | Multi-disciplinary team across frontend, full-stack, DevOps & AI |
+| **Engineering Team** | `8 Members` | Multi-disciplinary team across frontend, full-stack, DevOps & AI |
 | **Framework Overhead** | `0%` | Pure native browser DOM & ES6+ state engines |
 
 ---
 
-## 🌟 Live Applications Showcase
+## 💻 Web Applications Showcase
 
-| # | Project Name | Focus Area | Technology Highlights | Live Demo |
-|---|--------------|------------|-----------------------|-----------|
-| 1 | **Interactive Quiz App** | State & Logic | Dynamic Question Engine, Timer & Real-Time Score Calculation | [Live Demo ↗](https://iamshkzahid.github.io/interactive-quiz-app/) |
-| 2 | **Expense Tracker** | CRUD & Storage | localStorage Persistence, Array Reducers, Income/Expense Stats | [Live Demo ↗](https://iamshkzahid.github.io/expense-tracker/) |
-| 3 | **Live News Feed** | Async REST API | Fetch API, Async/Await, NewsAPI Integration, Category Filters | [Live Demo ↗](https://iamshkzahid.github.io/live-news-feed/) |
+| # | Project Name | Category | Key Technologies | Live Demo |
+|---|--------------|----------|------------------|-----------|
+| 1 | **Interactive Quiz App** | State & Logic | Dynamic Question Engine, Timer & Real-Time Scoring | [Live Demo ↗](https://iamshkzahid.github.io/interactive-quiz-app/) |
+| 2 | **Expense Tracker** | CRUD & Storage | localStorage Persistence, Array Reducers & Income/Expense Stats | [Live Demo ↗](https://iamshkzahid.github.io/expense-tracker/) |
+| 3 | **Live News Feed** | Async REST API | Fetch API, Async/Await, NewsAPI Integration & Topic Filters | [Live Demo ↗](https://iamshkzahid.github.io/live-news-feed/) |
 | 4 | **GitHub Developer Explorer** | Multi-Endpoint API | GitHub REST API v3, User Profile Stats & Repo Sorting | [Live Demo ↗](https://zenthar-dev.github.io/github-developer-explorer/) |
-| 5 | **Kanban Task Board** | Drag & Drop | Native HTML5 DnD, Column State Persistence, Centered Grid | [Live Demo ↗](https://iamshkzahid.github.io/kanban-task-board/) |
+| 5 | **Kanban Task Board** | Drag & Drop | Native HTML5 DnD, Column Persistence & Centered Grid | [Live Demo ↗](https://iamshkzahid.github.io/kanban-task-board/) |
 
 ---
 
-## 👥 Engineering & Leadership Team
+## 👥 Dev Agency Engineering Team
 
 - 👩‍💻 **Sophia Rodriguez** — *Lead Frontend Architect* (`8+ Yrs Experience`)
 - 👨‍💻 **Aarav Patel** — *Senior Full Stack Developer* (`7+ Yrs Experience`)
@@ -49,30 +64,19 @@ A premier enterprise-grade digital agency showcase built with **100% pure HTML5,
 
 ---
 
-## 🛠️ Architecture & Core Features
-
-- **Instant Default Dark Theme**: Built-in instant theme execution engine starting in Dark Mode with zero light flash.
-- **60fps Animated Number Counters**: Smooth cubic ease-out number count-up animation starting from `0` triggered via `IntersectionObserver`.
-- **Floating Pill Navigation Bar**: Glassmorphic floating pill-shaped navigation links with active gradient highlights.
-- **Centered 5th Project Grid Layout**: Optimized 2-column grid system centering the 5th project card (*Kanban Board*).
-- **Square Team Cards**: Square avatars (`border-radius: 16px`) with hover scaling and experience badges.
-- **Zero-Framework Overhead**: High-performance Vanilla JavaScript code separation without React, Vue, or Angular bloat.
-
----
-
 ## 📁 Repository Structure
 
 ```
-team-agency-portfolio/
-├── index.html                  ← Main Landing Page & App Showcase
+Agency-Portfolio/
+├── index.html                  ← Main Landing Page & Application Structure
 ├── css/
-│   ├── global.css              ← Design Tokens, Glassmorphism, Responsive Grid
-│   └── portfolio.css           ← Hero, Cards, Hype Metrics, Modal, Theme Engine
+│   ├── global.css              ← Design Tokens, Glassmorphism & Responsive Grid
+│   └── portfolio.css           ← Hero, Cards, Metrics, Modal & Theme Engine
 ├── js/
 │   ├── theme.js                ← Shared Theme Engine (Default Dark Mode)
-│   └── portfolio.js            ← Counter Animations, Filters, Modal, Scroll Spy
+│   └── portfolio.js            ← Counter Animations, Category Filters & Modal
 ├── assets/
-│   └── images/                 ← Square Team Avatars & High-Res App Screenshots
+│   └── images/                 ← Square Team Avatars & Web App Screenshots
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          ← GitHub Actions Automated Deployment Workflow
@@ -81,33 +85,37 @@ team-agency-portfolio/
 
 ---
 
-## 📦 Local Setup & Installation
+## 🛠️ How to Run My Project Locally
 
-1. **Clone the repository**:
+1. **Clone my repository**:
    ```bash
    git clone https://github.com/milind-T07/Agency-Portfolio.git
    cd Agency-Portfolio
    ```
 
-2. **Run locally**:
-   Open `index.html` in your browser or launch a simple local web server:
+2. **Open index.html in your browser**:
+   Double-click `index.html` or launch a simple local web server:
    ```bash
    python3 -m http.server 8000
    ```
-   Visit `http://localhost:8000` in your browser.
-
-3. **For News Feed API local development**:
-   ```bash
-   npx live-server
-   ```
+   Open `http://localhost:8000` in your browser.
 
 ---
 
 ## 🚀 Deployment
 
-This project is automatically deployed to **GitHub Pages** using GitHub Actions ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)).
+My portfolio is live and automatically deployed to **GitHub Pages** via GitHub Actions ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)).
 
-Live Production URL: **[https://milind-t07.github.io/Agency-Portfolio/](https://milind-t07.github.io/Agency-Portfolio/)**
+🔗 **Live Link**: [https://milind-t07.github.io/Agency-Portfolio/](https://milind-t07.github.io/Agency-Portfolio/)
+
+---
+
+## 👨‍💻 Creator & Contact
+
+**Milind Thakare**  
+- **GitHub**: [@milind-T07](https://github.com/milind-T07)  
+- **Email**: milindt0708@gmail.com  
+- **LinkedIn**: [Milind Thakare](https://www.linkedin.com/in/milind-thakare-24638b36a/)
 
 ---
 
