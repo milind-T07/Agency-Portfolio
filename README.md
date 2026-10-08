@@ -115,7 +115,7 @@ My portfolio is live and automatically deployed to **GitHub Pages** via GitHub A
 **Milind Thakare**  
 - **GitHub**: [@milind-T07](https://github.com/milind-T07)  
 - **Email**: milindt0708@gmail.com  
-- **LinkedIn**: [Milind Thakare](https://www.linkedin.com/in/milind-thakare-24638b36a/)
+- **LinkedIn**: [Milind Thakare](https://www.linkedin.com/in/milind-t-24638b36a/)
 
 ---
 
