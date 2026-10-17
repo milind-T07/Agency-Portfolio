@@ -43,11 +43,10 @@ This is my project showcasing **Dev Agency** — a high-impact web development s
 
 | # | Project Name | Category | Key Technologies | Live Demo |
 |---|--------------|----------|------------------|-----------|
-| 1 | **Interactive Quiz App** | State & Logic | Dynamic Question Engine, Timer & Real-Time Scoring | [Live Demo ↗](https://iamshkzahid.github.io/interactive-quiz-app/) |
-| 2 | **Expense Tracker** | CRUD & Storage | localStorage Persistence, Array Reducers & Income/Expense Stats | [Live Demo ↗](https://iamshkzahid.github.io/expense-tracker/) |
-| 3 | **Live News Feed** | Async REST API | Fetch API, Async/Await, NewsAPI Integration & Topic Filters | [Live Demo ↗](https://iamshkzahid.github.io/live-news-feed/) |
-| 4 | **GitHub Developer Explorer** | Multi-Endpoint API | GitHub REST API v3, User Profile Stats & Repo Sorting | [Live Demo ↗](https://zenthar-dev.github.io/github-developer-explorer/) |
-| 5 | **Kanban Task Board** | Drag & Drop | Native HTML5 DnD, Column Persistence & Centered Grid | [Live Demo ↗](https://iamshkzahid.github.io/kanban-task-board/) |
+| 1 | **Interactive Quiz App** | State & Logic | Dynamic Question Engine, Timer & Real-Time Scoring | [Live Demo ↗](https://milind-t07.github.io/Interactive-Quiz-App/) |
+| 2 | **Expense Tracker** | CRUD & Storage | localStorage Persistence, Array Reducers & Income/Expense Stats | [Live Demo ↗](https://milind-t07.github.io/Expense-Tracker/#overview) |
+| 3 | **Live News Feed** | Async REST API | Fetch API, Async/Await, NewsAPI Integration & Topic Filters | [Live Demo ↗](https://milind-t07.github.io/Live-News-Feed/) |
+| 4 | **Developer Explorer** | Multi-Endpoint API | GitHub REST API v3, User Profile Stats & Repo Sorting | [Live Demo ↗](https://milind-t07.github.io/Developer-Explorer/#overview) |
 
 ---
 
