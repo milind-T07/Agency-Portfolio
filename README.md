@@ -21,7 +21,7 @@ This is my project showcasing **Dev Agency** — a high-impact web development s
 - 🌙 **Automatic Default Dark Mode**: Instant theme engine that defaults to Dark Mode on page start with zero white flash.
 - 🔢 **Animated 60fps Number Counters**: Interactive count-up animation starting from `0` when scrolling into view.
 - 💊 **Floating Pill Navigation Bar**: Glassmorphic pill-shaped navigation links with smooth hover and active state gradients.
-- 🎯 **Centered 5th Project Layout**: Modern responsive CSS grid that centers the 5th project card (*Kanban Board*) on desktop screens.
+- 🎯 **Balanced 4-Project Responsive Grid**: Clean 2x2 responsive CSS grid showcase with category filter pills and dynamic quick-view modals.
 - 🖼️ **Square Team Cards**: Clean portrait card layout with experience badges and hover animations.
 - ⚡ **Zero-Framework Architecture**: Modular JavaScript code structure built purely with browser APIs.
 
