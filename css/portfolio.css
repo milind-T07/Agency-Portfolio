@@ -504,7 +504,6 @@
     gap: 36px;
   }
 
-  .projects-grid .project-card:nth-child(5):last-child,
   .projects-grid .project-card:last-child:nth-child(odd) {
     grid-column: 1 / -1;
     justify-self: center;
