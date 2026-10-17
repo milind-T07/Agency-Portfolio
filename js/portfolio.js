@@ -119,7 +119,7 @@ const projectDetailsData = {
       "Full dark mode support with CSS variables"
     ],
     tech: ["HTML5", "CSS3 Flexbox", "Vanilla ES6 JS", "DOM API"],
-    url: "https://iamshkzahid.github.io/interactive-quiz-app/"
+    url: "https://milind-t07.github.io/Interactive-Quiz-App/"
   },
   expense: {
     title: "Expense Tracker",
@@ -134,7 +134,7 @@ const projectDetailsData = {
       "Filter transactions by Income, Expense, or Date"
     ],
     tech: ["JavaScript Array Methods", "localStorage API", "DOM Mutation", "CSS Grid"],
-    url: "https://iamshkzahid.github.io/expense-tracker/"
+    url: "https://milind-t07.github.io/Expense-Tracker/#overview"
   },
   news: {
     title: "Live News Feed",
@@ -149,7 +149,7 @@ const projectDetailsData = {
       "Responsive thumbnail grid layout"
     ],
     tech: ["REST API (NewsAPI)", "Async/Await", "JSON Parsing", "CSS Grid"],
-    url: "https://iamshkzahid.github.io/live-news-feed/"
+    url: "https://milind-t07.github.io/Live-News-Feed/"
   },
   github: {
     title: "GitHub Developer Explorer",
@@ -164,22 +164,7 @@ const projectDetailsData = {
       "Direct link generation to user repositories"
     ],
     tech: ["GitHub REST API", "Debounce Search", "Async JavaScript", "Glassmorphism UI"],
-    url: "https://zenthar-dev.github.io/github-developer-explorer/"
-  },
-  kanban: {
-    title: "Kanban Task Board",
-    badge: "Drag & Drop",
-    image: "assets/images/kanban-board.jpg",
-    author: "Elena Rostova",
-    description: "Productivity board implementing HTML5 Drag and Drop API to move tasks across To Do, In Progress, and Done columns with full state persistence.",
-    features: [
-      "Native HTML5 Drag and Drop event listeners",
-      "Create, edit, and delete task cards with priority badges",
-      "Automatic column task count badges",
-      "Persistent column order in localStorage"
-    ],
-    tech: ["HTML5 Drag & Drop API", "localStorage Sync", "CSS Transitions", "DOM Manipulation"],
-    url: "https://iamshkzahid.github.io/kanban-task-board/"
+    url: "https://milind-t07.github.io/Developer-Explorer/#overview"
   }
 };
 
