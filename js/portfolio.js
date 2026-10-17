@@ -152,7 +152,7 @@ const projectDetailsData = {
     url: "https://milind-t07.github.io/Live-News-Feed/"
   },
   github: {
-    title: "GitHub Developer Explorer",
+    title: "Developer Explorer",
     badge: "Multi-Endpoint API",
     image: "assets/images/github-explorer.jpg",
     author: "Maya Lin",
